@@ -1,0 +1,12 @@
+# PaddleOCR-VL backend (NVIDIA GPU / CUDA)
+#
+# Step 1 — install PaddlePaddle GPU build matching your CUDA (example = CUDA 12.6):
+#   python -m pip install paddlepaddle-gpu==3.2.1 \
+#     -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
+#   (other CUDA: https://www.paddlepaddle.org.cn/en/install/quick)
+#
+# Step 2 — install PaddleOCR with the document parser extra (this file):
+#   pip install -r requirements.txt
+#
+# Model weights download automatically on first `run` (cached in ~/.paddlex).
+paddleocr[doc-parser]>=3.4.0
