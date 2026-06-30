@@ -10,3 +10,8 @@
 #
 # Model weights download automatically on first `run` (cached in ~/.paddlex).
 paddleocr[doc-parser]>=3.4.0
+
+# HTTP API (server.py) — remote parsing/purge
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9

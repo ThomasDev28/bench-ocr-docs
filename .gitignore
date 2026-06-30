@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated OCR output (keep the dir, ignore results)
+output/*
+!output/.gitkeep
+
+# Input PDFs (keep the dir, ignore data)
+input/*
+!input/.gitkeep
+
+# Paddle model cache (just in case it lands locally)
+.paddlex/
